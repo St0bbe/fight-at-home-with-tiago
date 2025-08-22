@@ -1,29 +1,10 @@
-import Navigation from "@/components/Navigation";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import HeroSection from "@/components/sections/HeroSection";
-import AboutSection from "@/components/sections/AboutSection";
-import ServicesSection from "@/components/sections/ServicesSection";
-import ProcessSection from "@/components/sections/ProcessSection";
-import TestimonialsSection from "@/components/sections/TestimonialsSection";
-import GallerySection from "@/components/sections/GallerySection";
-import FinalCallSection from "@/components/sections/FinalCallSection";
-import ContactSection from "@/components/sections/ContactSection";
-
 const Index = () => {
+  console.log("Index component is rendering - TESTE");
+  
   return (
-    <div className="min-h-screen">
-      <Navigation />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <ServicesSection />
-        <ProcessSection />
-        <TestimonialsSection />
-        <GallerySection />
-        <FinalCallSection />
-        <ContactSection />
-      </main>
-      <FloatingWhatsApp />
+    <div className="min-h-screen bg-red-500">
+      <h1 className="text-white text-4xl p-8">TESTE - Personal Fight está carregando</h1>
+      <div className="text-white p-8">Se você está vendo isso, o componente está funcionando</div>
     </div>
   );
 };
